@@ -1,4 +1,4 @@
-import 'package:flutter/material.dart';
+import 'package:flutter/material.dart'; //? ESTE ES EL PAQUETE QUE TIENE TODOS LOS WIDGETS DE LA APP
 
 void main() { //?ESTE METODO ES EL PRINCIPAL DE LA APLICACION
   runApp(const MyApp()); //?ESTE METODO INICIALIZA LA APLICACION
@@ -24,7 +24,7 @@ class MyApp extends StatelessWidget { //?ESTE WIDGET ES LA RAIZ DE LA APLICACION
   }
 }
 
-class MyHomePage extends StatefulWidget { 
+class MyHomePage extends StatefulWidget {  //?ESTA CLASE CREA UN ESTADO PARA LA INTERFAZ DEL USER 
   const MyHomePage({super.key, required this.title});
 
  //!ESTE WIDGET ES EL PRINCIPAL DE LA APLICACION
